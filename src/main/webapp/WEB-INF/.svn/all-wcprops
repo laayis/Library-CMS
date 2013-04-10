@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/mcgill_ecse428_project/!svn/ver/536/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF
+END
+restDispatcher-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/mcgill_ecse428_project/!svn/ver/30/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/restDispatcher-servlet.xml
+END
+business-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mcgill_ecse428_project/!svn/ver/30/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/business-context.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/mcgill_ecse428_project/!svn/ver/202/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/web.xml
+END

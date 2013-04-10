@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/mcgill_ecse428_project/!svn/ver/498/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities
+END
+CheckBooksForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/mcgill_ecse428_project/!svn/ver/391/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/CheckBooksForm.java
+END
+SendEmail.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/mcgill_ecse428_project/!svn/ver/468/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/SendEmail.java
+END
+JournalIssue.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mcgill_ecse428_project/!svn/ver/409/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/JournalIssue.java
+END
+AddIssueForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mcgill_ecse428_project/!svn/ver/409/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/AddIssueForm.java
+END
+PhysicalDocumentCopy.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/mcgill_ecse428_project/!svn/ver/332/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/PhysicalDocumentCopy.java
+END
+EncryptPassword.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/mcgill_ecse428_project/!svn/ver/498/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/EncryptPassword.java
+END
+Book.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/362/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/Book.java
+END
+Borrow.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mcgill_ecse428_project/!svn/ver/473/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/Borrow.java
+END
+Journal.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/mcgill_ecse428_project/!svn/ver/411/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/Journal.java
+END
+DeleteLibrariansForm.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/mcgill_ecse428_project/!svn/ver/476/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/DeleteLibrariansForm.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/462/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/User.java
+END
+Document.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mcgill_ecse428_project/!svn/ver/362/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/entities/Document.java
+END

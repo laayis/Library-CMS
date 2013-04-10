@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/mcgill_ecse428_project/!svn/ver/523/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/rest
+END
+UserController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/mcgill_ecse428_project/!svn/ver/523/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/rest/UserController.java
+END
+DocumentController.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/mcgill_ecse428_project/!svn/ver/503/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/rest/DocumentController.java
+END
+LibrarianController.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/mcgill_ecse428_project/!svn/ver/502/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/rest/LibrarianController.java
+END
+SearchController.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mcgill_ecse428_project/!svn/ver/502/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/rest/SearchController.java
+END
+HomeController.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/mcgill_ecse428_project/!svn/ver/523/trunk/CODE/LibraryCMS/src/main/java/com/alpsank/rest/HomeController.java
+END

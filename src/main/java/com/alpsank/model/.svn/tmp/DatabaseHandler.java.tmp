@@ -1,0 +1,57 @@
+package com.alpsank.model;
+
+import java.sql.*;
+
+public class DatabaseHandler {
+	static final String DB_NAME = "hululu_library";
+
+	public static Connection getDBConnection() {
+		Connection dbConnection = null;
+
+		final String DB_DRIVER = "com.mysql.jdbc.Driver";
+		final String DB_CONNECTION = "jdbc:mysql://localhost:3306/" + DB_NAME;
+		final String DB_USER = "root";
+		// if you see this, change password to "password"; sorry I committed by accident
+		final String DB_PASSWORD = "";
+
+		try {
+			Class.forName(DB_DRIVER);
+		} catch (Exception e) {
+			System.out.println(e.getMessage());
+		}
+
+		try {
+			dbConnection = DriverManager.getConnection(DB_CONNECTION, DB_USER,
+					DB_PASSWORD);
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+
+		return dbConnection;
+	}
+
+	/**
+	 * Handles SQLEsceptions
+	 * 
+	 * @param ex
+	 */
+	public static void printSQLException(SQLException ex) {
+		for (Throwable e : ex) {
+			if (e instanceof SQLException) {
+
+				e.printStackTrace(System.err);
+				System.err.println("SQLState: "
+						+ ((SQLException) e).getSQLState());
+				System.err.println("Error Code: "
+						+ ((SQLException) e).getErrorCode());
+				System.err.println("Message: " + e.getMessage());
+				Throwable t = ex.getCause();
+				while (t != null) {
+					System.out.println("Cause: " + t);
+					t = t.getCause();
+				}
+			}
+
+		}
+	}
+}

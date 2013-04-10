@@ -1,0 +1,75 @@
+package com.alpsank.rest;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.ui.ModelMap;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.alpsank.entities.User;
+import com.alpsank.model.UserModel; 
+import javax.servlet.http.*;
+
+@Controller
+public class UserController {
+	
+	@RequestMapping(method = RequestMethod.POST, value = "login")
+	public ModelAndView Login(Model model,@RequestParam("inputUsername") String email,
+										  @RequestParam("inputPassword") String password,
+										  HttpSession session){
+		
+		UserModel usermod = new UserModel();
+		
+		User retrievedUser = usermod.login(email, password);
+		if(retrievedUser != null )
+			session.setAttribute("user", retrievedUser);
+		
+		return new ModelAndView("redirect:/");
+	}
+	@RequestMapping(value = "logout")
+	public ModelAndView Logout(Model model, HttpSession session, HttpServletRequest request ){
+		
+		request.getSession().invalidate();
+		return new ModelAndView("redirect:/");
+	}
+	
+    @RequestMapping(method = RequestMethod.POST, value = "register")
+    public String register(Model model, @ModelAttribute("user") User user) {
+        // There's no need to perform any additional checks for
+        // passwords matching etc. since we are doing that at the front-end with Ajax
+
+        // Mouhyi: we are no longer doing the validation with Ajax - at least for now-
+        // Then the controller checks that the username and email aren't already used
+
+        UserModel userModel = new UserModel();
+        user.setRole("library user");
+    	
+    	if(UserModel.exists(user.getUsername()) || UserModel.isEmailUsed(user.getEmail())){
+    		model.addAttribute("message", "Username or email already used!");
+        	return "register";
+    	}
+
+    	userModel.register(user);
+    	model.addAttribute("message", "Your registration was successful! You may login with your credentials below.");
+    	return "home";
+    }
+    
+    
+    @RequestMapping(method = RequestMethod.POST, value = "edit_profile")
+    public  String editProfile(Model model, @ModelAttribute("user") User user) {
+    	return "home";
+    }
+
+}

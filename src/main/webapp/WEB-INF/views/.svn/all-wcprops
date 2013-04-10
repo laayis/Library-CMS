@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/mcgill_ecse428_project/!svn/ver/536/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views
+END
+view_book.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mcgill_ecse428_project/!svn/ver/496/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/view_book.jsp
+END
+register.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mcgill_ecse428_project/!svn/ver/293/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/register.jsp
+END
+search_users.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mcgill_ecse428_project/!svn/ver/500/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/search_users.jsp
+END
+forgotpass.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/520/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/forgotpass.jsp
+END
+home.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/mcgill_ecse428_project/!svn/ver/523/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/home.jsp
+END
+advancedSearch.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mcgill_ecse428_project/!svn/ver/438/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/advancedSearch.jsp
+END
+welcome.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/mcgill_ecse428_project/!svn/ver/209/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/welcome.jsp
+END
+list_users.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/476/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/list_users.jsp
+END
+add_book.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/mcgill_ecse428_project/!svn/ver/444/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/add_book.jsp
+END
+catalogue.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/mcgill_ecse428_project/!svn/ver/473/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/catalogue.jsp
+END
+edit_profile.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mcgill_ecse428_project/!svn/ver/536/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/edit_profile.jsp
+END
+search.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/mcgill_ecse428_project/!svn/ver/438/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/search.jsp
+END
+delete_librarians.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/mcgill_ecse428_project/!svn/ver/477/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/delete_librarians.jsp
+END
+login.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/mcgill_ecse428_project/!svn/ver/498/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/login.jsp
+END
+add_librarian.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/mcgill_ecse428_project/!svn/ver/456/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/add_librarian.jsp
+END
+view_borrowed.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/mcgill_ecse428_project/!svn/ver/473/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/view_borrowed.jsp
+END
+checkin_book.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/mcgill_ecse428_project/!svn/ver/420/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/checkin_book.jsp
+END
+checkout_book.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/mcgill_ecse428_project/!svn/ver/361/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/checkout_book.jsp
+END
+view_issue.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/496/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views/view_issue.jsp
+END

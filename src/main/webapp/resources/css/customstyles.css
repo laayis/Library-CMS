@@ -1,0 +1,50 @@
+/*DO NOT REMOVE THIS FROM BODY top navbar requires this! */
+body {
+  padding-top: 40px;
+}
+#footer {
+	margin-top: 40px;
+}
+.jumbotron {
+	color:white;
+	background: #5e2750;
+	padding: 40px 0px 40px;
+}
+
+.borderleft {
+    border-left: 1px solid #e3e3e3;
+}
+.top-buffer { margin-top:20px; }
+.bottom-buffer { margin-bottom:20px; }
+.pagination {
+	margin-top: 200px;
+}
+.searchbar{
+	margin-left: auto;
+margin-right: auto;
+width: 661px;
+
+}
+.searchbar a{
+	vertical-align: middle;
+}
+div.center{
+  margin:0 auto;
+  width:500px;
+}
+.searchOptions {
+	color: #808080;
+}
+.book{
+	height: 400px;
+background: #EEE;
+padding-left: 7px;
+border: 1px #345 solid;
+border-left: 20px #348 solid;
+}
+.margintopsmall{
+	margin-top:15px;
+}
+.formhidden{
+	margin:0;
+}

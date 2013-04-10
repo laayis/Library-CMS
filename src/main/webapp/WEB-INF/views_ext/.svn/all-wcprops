@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/mcgill_ecse428_project/!svn/ver/536/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext
+END
+home_user.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/mcgill_ecse428_project/!svn/ver/476/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/home_user.jsp
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/536/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/header.jsp
+END
+nav_bar.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/mcgill_ecse428_project/!svn/ver/523/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/nav_bar.jsp
+END
+home_librarian.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/mcgill_ecse428_project/!svn/ver/476/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/home_librarian.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/mcgill_ecse428_project/!svn/ver/293/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/footer.jsp
+END
+home_guest.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mcgill_ecse428_project/!svn/ver/498/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/home_guest.jsp
+END
+home_admin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/mcgill_ecse428_project/!svn/ver/476/trunk/CODE/LibraryCMS/src/main/webapp/WEB-INF/views_ext/home_admin.jsp
+END
